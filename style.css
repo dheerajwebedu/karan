@@ -1,0 +1,46 @@
+.net{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin-top: 50px;
+    margin: auto;
+    animation-name: abc;
+    animation-duration: 5s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes abc{
+    0%{
+        background-color: black;
+        border-radius: 10%;
+        transform: translate(100px) translate(100px);
+    }
+    25%{
+        background-color: brown;
+        border-radius: 20px;
+        transform: translate(200px) translate(200px);
+    }
+    50%{
+        background-color:red;
+        border-radius: 30px;
+        transform:translate(300px) translate(300px);
+    }
+    75%{
+        background-color: yellowgreen;
+        border-radius: 40px;
+        transform: translate(400px) translate(400px);
+    }
+    100%{
+        background-color: black;
+        border-radius: 50px;
+        transform: translate(500px) translate(500px);
+    }
+
+}
+
+
+
